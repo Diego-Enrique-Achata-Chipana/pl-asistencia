@@ -1,0 +1,20 @@
+<table>
+    <thead>
+        <tr>
+            <th>N°:</th>
+            <th>Nombre:</th>
+            <th>Apellido:</th>
+            <th>Email:</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach($usuarios as $key => $user)
+        <tr>
+            <td>{{++$key}}</td>
+            <td>{{$user->nombre}}</td>
+            <td>{{$user->apellido}}</td>
+            <td>{{$user->email}}</td>
+        </tr>
+    @endforeach
+    </tbody>
+</table>
