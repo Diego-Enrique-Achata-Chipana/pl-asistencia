@@ -114,7 +114,7 @@
                                             </span>
                                             <div class="form-group label-floating">
                                                 <label class="control-label">Password</label>
-                                                <input type="password" name="password" class="form-control" value="diego10">
+                                                <input type="password" name="password" class="form-control" value="diego10+">
                                             </div>
                                         </div>
                                     </div>
